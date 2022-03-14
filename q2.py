@@ -40,4 +40,4 @@ def api_each():
         return links
     return jsonify(df[df['Seat ID']==id].to_dict())
 
-app.run(debug=False,host='0.0.0.0')
+app.run()
